@@ -25,7 +25,7 @@ const NavBar = () => {
                 }
             
             </div>
-           <ul className={`md:flex duration-1000 absolute bg-none md:static text-white rounded-lg pl-5   ${open? "top-16 bg-green-500" : "-top-60"} text-black`}>
+           <ul className={`md:flex duration-1000 absolute bg-none md:static text-white rounded-lg pl-5   ${open? "top-16 bg-green-500" : "-top-60"} text-black md:justify-center`}>
            {
                 navRoutes.map(route => <Link route={route}></Link>)
             }
