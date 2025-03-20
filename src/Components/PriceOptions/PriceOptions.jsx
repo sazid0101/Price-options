@@ -44,7 +44,7 @@ const PriceOptions = () => {
         <div>
             <h1 className=" flex justify-center pt-5 pb-5 text-4xl font-bold text-teal-800 ">Best Price In Town</h1>
 
-            <div  className="grid grid-cols-3 ml-10 mr-10 gap-10">
+            <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  ml-10 mr-10 gap-10">
             {
                 gymPlans.map(option => <Option option ={option}></Option>)
             }

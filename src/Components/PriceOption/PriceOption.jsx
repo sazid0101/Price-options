@@ -2,7 +2,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const PriceOption = ({option}) => {
     const {name,features,price} = option
     return (
-        <div className="text-white">
+        <div className="text-white ">
             
             <div className="bg-teal-500 p-5 rounded-lg ">
             <h1 className="text-xl font-bold  text-center pb-1">{name}</h1>
