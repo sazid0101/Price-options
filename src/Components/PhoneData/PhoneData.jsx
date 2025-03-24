@@ -29,7 +29,7 @@ const PhoneData = () => {
     },[])
     return (
         <div>
-            <h1 className='text-4xl font-bold'>Phones: {phones.length}</h1>
+            <h1 className='text-4xl font-bold flex justify-center'>Phones: {phones.length}</h1>
             <BarChart width={1260} height={500} data={phones}>
                 <XAxis dataKey='name'></XAxis>
                 <Bar dataKey={"price"} fill='blue'></Bar>
